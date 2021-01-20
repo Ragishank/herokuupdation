@@ -6,7 +6,7 @@ def fnIndex(request):
 def assginment1(request):
     return render(request, 'assignment1.html')
 def assginment2(request):
-    return render(request, 'assignment2.html')
+    return render(request,'assignment2.html')
 def assginment3(request):
     return render(request, 'assignment3.html')
 def assginment4(request):
