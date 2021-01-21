@@ -8,5 +8,6 @@ urlpatterns = [
     path('ass2/',views.assginment2,name="ass2"),
     path('ass3',views.assginment3),
     path('ass4',views.assginment4),
-    path('ass5',views.assignment5)
+    path('ass5',views.assignment5),
+    path('ass6',views.assignment6)
 ]
