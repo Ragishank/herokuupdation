@@ -9,5 +9,6 @@ urlpatterns = [
     path('ass3',views.assginment3),
     path('ass4',views.assginment4),
     path('ass5',views.assignment5),
-    path('ass6',views.assignment6)
+    path('ass6',views.assignment6),
+    path('ass7',views.assignment7)
 ]
