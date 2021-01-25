@@ -9,7 +9,8 @@
 p{
     color: blue;  
     text-align: justify;
-   }
-dt{
-    margin-left: 2500;
+} 
+.table{
+  background-color: yellowgreen;
+
 }
