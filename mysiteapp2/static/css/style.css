@@ -10,7 +10,19 @@ p{
     color: blue;  
     text-align: justify;
 } 
+.p1{
+    color: black;
+    text-align: justify;
+}
 .table{
-  background-color: yellowgreen;
+    background-color: yellow;
+    border-style:double;
+    padding: 2px;
+    table-layout: fixed;
+    border-width: thick;
+    border-color: white;
+    width: 500px;
+    text-align: center;
+    border-spacing: 3px;
 
 }

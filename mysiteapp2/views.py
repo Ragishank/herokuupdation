@@ -19,7 +19,7 @@ def assignment7(request):
     return render(request,'assignment7.html')
 def assignment8(request):
     return render(request,'assignment8.html')
-def first(request):
+def fnFirst(request):
     return render(request,'first.html')
-def second(request):
+def fnSecond(request):
     return render(request,'second.html')
