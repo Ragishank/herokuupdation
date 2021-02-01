@@ -23,3 +23,5 @@ def fnFirst(request):
     return render(request,'first.html')
 def fnSecond(request):
     return render(request,'second.html')
+def assignment9(request):
+    return render(request,'assignment9.html')

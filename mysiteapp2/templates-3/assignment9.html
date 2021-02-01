@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <table border = "1" class="table2">
+        
+           <th colspan="5" align="center">Student Details</th>
+        
+        <tr rowspan="2" align="center">
+            <td rowspan="2">shift</td>
+            <td rowspan="2">Student Name</td>
+            <td rowspan="2">Course</td>
+            <td colspan="2">contact details</td>
+        </tr>
+            
+        <tr >
+           
+            <td>Mobile</td>
+            <td>Landline</td>
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td>subin</td>
+            <td>GM</td>
+            <td>123456</td>
+            <td>987654</td>
+              
+        </tr>
+        <tr>
+            
+            <td>Abhishek</td>
+            <td>CM</td>
+            <td>234567</td>
+            <td>876543</td>
+        </tr>
+        <tr>
+            
+            <td>Shameem</td>
+            <td>HM</td>
+            <td>345678</td>
+            <td>765432</td>
+          
+        </tr>
+        <tr>
+            <td rowspan="3"></td>
+            <td>Atheendrdh</td>
+            <td>CM</td>
+            <td>4567890</td>
+            <td>6543210</td>
+           
+        </tr>
+        <tr>
+            <td>Vishnu</td>
+            <td>HM</td>
+            <td>5678901</td>
+            <td>5432109</td>
+            
+        </tr>
+        <tr>
+            <td>Jawad</td>
+            <td>GM</td>
+            <td>67890123</td>
+            <td>43210987</td>
+            
+        </tr>
+    </table>
+</body>
+</html>

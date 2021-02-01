@@ -26,3 +26,12 @@ p{
     border-spacing: 3px;
 
 }
+.table2{
+    padding: 10px;
+    table-layout: fixed;
+    border-width: thin;
+    border-color: black;
+    text-align: left;
+    width: 800px;
+   
+}
