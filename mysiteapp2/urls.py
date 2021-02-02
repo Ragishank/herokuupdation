@@ -14,6 +14,7 @@ urlpatterns = [
     path('ass8',views.assignment8),
     path('first',views.fnFirst),
     path('second',views.fnSecond),
-    path('ass9',views.assignment9)
+    path('ass9',views.assignment9),
+    path('ass10',views.assignment10)
     
 ]
