@@ -40,3 +40,28 @@ p{
     font-weight: bold;
     color: red;
 }
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0;
+    overflow: hidden;
+    background-color: rgb(23, 114, 156);
+    
+  }
+  
+.li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    float: left;
+    border-right: 2px solid; 
+    
+
+  }
+  .li:last-child{
+      border: none;
+  }
+  
+ 
