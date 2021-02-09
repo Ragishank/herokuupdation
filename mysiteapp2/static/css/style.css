@@ -60,20 +60,13 @@ p{
     
 
   }
-  .li:last-child{
+.li:last-child{
       border: none;
   }
-  .row1{
-    background-color: white; 
-    height: auto;
-    margin: 5px; 
-    border: solid 1px black; 
-    padding: 5px;
-  }
-  .col1{
-    margin: 5px;
-    border: solid 1px black;
-    padding: 5px;
-  }
+
+.img1{
+    border-radius: 50%;
+    width: 30%;
+}
   
  
