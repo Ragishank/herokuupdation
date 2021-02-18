@@ -25,6 +25,8 @@ urlpatterns = [
     path('ass17',views.assignment17),
     path('ass18',views.assignment18),
     path('ass19',views.assignment19),
-    path('ass20',views.assignment20)
+    path('ass20',views.assignment20),
+    path('ass21',views.assignment21),
+    path('ass22',views.assignment22)
     
 ]
