@@ -35,3 +35,5 @@ def assignment13(request):
     return render(request,'assignment13.html')
 def assignment14(request):
     return render(request,'assignment14.html')
+def assignment15(request):
+    return render(request,'assignment15.html')
