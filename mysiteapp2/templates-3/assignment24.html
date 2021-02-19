@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text"  placeholder="mm/dd/yyyy" id="age">
+    <button onclick="fnAge()">find your age</button>
+    <script>
+        // var dob = new Date("11/20/1993");
+       
+        // var month_diff = Date.now() - dob.getTime();
+        // var age_dt = new Date(month_diff); 
+        
+        //  var year = age_dt.getUTCFullYear();
+        
+        //  var age = Math.abs(year - 1970);
+        
+        
+        // document.write("Age of the date entered: " + age + " years");
+        function fnAge(){
+            var today = new Date();
+            var date = new Date(document.getElementById('age').value);
+
+            var year=today.getFullYear()-date.getFullYear(); 
+
+            var month = today.getMonth() - date.getMonth();
+            if (month < 0 || (month === 0 && today.getDate() < date.getDate())) {
+                year--;
+                month=month+12;     
+            }
+
+            var days = today.getDate() - date.getDate();    
+
+            if (days < 0 || (days === 0 && today.getDate() < date.getDate())) {
+            month--;
+            days=days+30;       
+            }
+
+            alert("your age is :"+year+"---"+month+"---"+days)
+        }
+    </script>
+</body>
+</html>

@@ -21,22 +21,26 @@
             alert("Time expired") 
         </script>-->
 <button onclick="myFun()">Try it</button>
+<p> The download will begin in <span id="countdowntimer">  </span> Seconds</p>
 
 <script>
     
    function myFun() {
-        count=Number(prompt("enter the count down limit:"))
-        while(count>0){
-            //     alert(count)
-            //    count=count-1;
-                 setTimeout(function(){ document.write(count) }, 3000);
-                 count=count-1;
-                 console.log(count)
-           }
-           
-            alert("Time expired")
-            
-            
+   
+    var timeleft = prompt("Enter Time ")
+    var downloadTimer = setInterval(function(){
+    timeleft--;
+    document.getElementById("countdowntimer").textContent = timeleft;
+    if(timeleft == 0)
+    {
+
+        alert("Time Expired");
+        clearInterval(downloadTimer);
+        
+    }
+        // clearInterval(downloadTimer);
+
+    },1000);          
  }
 
 </script> 
