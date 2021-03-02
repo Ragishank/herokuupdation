@@ -29,6 +29,7 @@ urlpatterns = [
     path('ass21',views.assignment21),
     path('ass22',views.assignment22),
     path('ass23',views.assignment23),
-    path('ass24',views.assignment24)
+    path('ass24',views.assignment24),
+    path('ass25_email',views.assignment25)
     
 ]
